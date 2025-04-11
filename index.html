@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
 <section id="Attributes">
     <h2>Attributes</h2>
     <p>Attributes provide additional information about an element. They are always specified in the opening tag and usually come in name/value pairs like <code>name="value"</code>. Common attributes include:</p>
@@ -62,198 +71,78 @@
     </section>
 <section id="Table">   
     <h2>Table</h2> 
-<table>
+<table class="schedule-table">
     <thead>
-        <p>Розклад уроків</p>
-        <tr colspan="3">
-            <th>Дні тижня</th>
-            <th>Уроки</th>
-            <th>Час проведення</th>
+        <p class="table-title">Розклад уроків</p>
+        <tr colspan="3" class="header-row">
+            <th class="day-column">Дні тижня</th>
+            <th class="lesson-column">Уроки</th>
+            <th class="time-column">Час проведення</th>
         </tr>
     </thead>
     <tbody>
-    <tr>
-        <td rowspan="8">Понеділок</td>
-        <td>Укр. Мова</td>
-        <td>9:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Мова</td>
-        <td>10:00</td>
-    </tr>
-    <tr>
-        <td>Історія України</td>
-        <td>11:00</td>
-    </tr>
-    <tr>
-        <td>Громад. Освіта</td>
-        <td>12:00</td>
-    </tr>
-    <tr>
-        <td>Зар. Літ.</td>
-        <td>13:00</td>
-    </tr>
-    <tr>
-        <td>Алгебра і початки аналізу</td>
-        <td>14:00</td>
-    </tr>
-    <tr>
-        <td>Інформатика</td>
-        <td>15:00</td>
-    </tr>
-    <tr>
-        <td>Додаткова алгебра</td>
-        <td>16:00</td>
-    </tr>
-    <tr>
-        <td rowspan="7">Вівторок</td>
-        <td>Всесвітня історія</td>
-        <td>9:00</td>
-    </tr>
-    <tr>
-        <td>Англ. Мова</td>
-        <td>10:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Літ.</td>
-        <td>11:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Літ.</td>
-        <td>12:00</td>
-    </tr>
-    <tr>
-        <td>Фіз-ра</td>
-        <td>13:00</td>
-    </tr>
-    <tr>
-        <td>Інформатика/Мистецтво</td>
-        <td>14:00</td>
-    </tr>
-    <tr>
-        <td>Географія</td>
-        <td>15:00</td>
-    </tr>
-    <tr>
-        <td rowspan="7">Середа</td>
-        <td>Захист України</td>
-        <td>9:00</td>
-    </tr>
-    <tr>
-        <td>Фізика</td>
-        <td>10:00</td>
-    </tr>
-    <tr>
-        <td>Хімія</td>
-        <td>11:00</td>
-    </tr>
-    <tr>
-        <td>Біологія і екологія</td>
-        <td>12:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Мова</td>
-        <td>13:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Мова</td>
-        <td>14:00</td>
-    </tr>
-    <tr>
-        <td>Мистецтво</td>
-        <td>15:00</td>
-    </tr>
-    <tr>
-        <td rowspan="7">Вівторок</td>
-        <td>Всесвітня історія</td>
-        <td>9:00</td>
-    </tr>
-    <tr>
-        <td>Англ. Мова</td>
-        <td>10:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Літ.</td>
-        <td>11:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Літ.</td>
-        <td>12:00</td>
-    </tr>
-    <tr>
-        <td>Фіз-ра</td>
-        <td>13:00</td>
-    </tr>
-    <tr>
-        <td>Інформатика/Мистецтво</td>
-        <td>14:00</td>
-    </tr>
-    <tr>
-        <td>Географія</td>
-        <td>15:00</td>
-    </tr>
-    <tr>
-        <td rowspan="7">Четверг</td>
-        <td>Англ. Мова</td>
-        <td>9:00</td>
-    </tr>
-    <tr>
-        <td>Захист України</td>
-        <td>10:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Літ.</td>
-        <td>11:00</td>
-    </tr>
-    <tr>
-        <td>Укр. Літ.</td>
-        <td>12:00</td>
-    </tr>
-    <tr>
-        <td>Фізика</td>
-        <td>13:00</td>
-    </tr>
-    <tr>
-        <td>Геометрія</td>
-        <td>14:00</td>
-    </tr>
-    <tr>
-        <td>Фіз-ра</td>
-        <td>15:00</td>
-    </tr>
-    <tr>
-        <td rowspan="8">Пʼятниця</td>
-        <td>Алгебра</td>
-        <td>9:00</td>
-    </tr>
-    <tr>
-        <td>Географія</td>
-        <td>10:00</td>
-    </tr>
-    <tr>
-        <td>Хімія</td>
-        <td>11:00</td>
-    </tr>
-    <tr>
-        <td>Біологія і екологія.</td>
-        <td>12:00</td>
-    </tr>
-    <tr>
-        <td>Історія України</td>
-        <td>13:00</td>
-    </tr>
-    <tr>
-        <td>Фізика</td>
-        <td>14:00</td>
-    </tr>
-    <tr>
-        <td>Громад. Освіта</td>
-        <td>15:00</td>
-    </tr>
-    <tr>
-        <td>Фіз-ра</td>
-        <td>16:00</td>
-    </tr>
+        <tr>
+            <td rowspan="8" class="monday">Понеділок</td>
+            <td>Укр. Мова</td>
+            <td>9:00</td>
+        </tr>
+        <tr>
+            <td>Укр. Мова</td>
+            <td>10:00</td>
+        </tr>
+        <tr>
+            <td>Історія України</td>
+            <td>11:00</td>
+        </tr>
+        <tr>
+            <td>Громад. Освіта</td>
+            <td>12:00</td>
+        </tr>
+        <tr>
+            <td>Зар. Літ.</td>
+            <td>13:00</td>
+        </tr>
+        <tr>
+            <td>Алгебра і початки аналізу</td>
+            <td>14:00</td>
+        </tr>
+        <tr>
+            <td>Інформатика</td>
+            <td>15:00</td>
+        </tr>
+        <tr>
+            <td>Додаткова алгебра</td>
+            <td>16:00</td>
+        </tr>
+        <tr>
+            <td rowspan="7" class="tuesday">Вівторок</td>
+            <td>Всесвітня історія</td>
+            <td>9:00</td>
+        </tr>
+        <tr>
+            <td>Англ. Мова</td>
+            <td>10:00</td>
+        </tr>
+        <tr>
+            <td>Укр. Літ.</td>
+            <td>11:00</td>
+        </tr>
+        <tr>
+            <td>Укр. Літ.</td>
+            <td>12:00</td>
+        </tr>
+        <tr>
+            <td>Фіз-ра</td>
+            <td>13:00</td>
+        </tr>
+        <tr>
+            <td>Інформатика/Мистецтво</td>
+            <td>14:00</td>
+        </tr>
+        <tr>
+            <td>Географія</td>
+            <td>15:00</td>
+        </tr>
     </tbody>
 </table>
 </section>
